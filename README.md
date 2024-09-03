@@ -17,25 +17,26 @@ JSON para almacenamiento de datos
 ## Estructura del Proyecto
 
 /gestiontareas
-|-- styles.css
-|-- login.js
-|-- scripts.js
-|-- tasks.js
-|-- add_task.php
-|-- delete_all_tasks.php
-|-- get_user.php
-|-- informetareas.php
-|-- login.php
-|-- logout.php
-|-- register.php
-|-- save_task.php
-|-- tasks.php
-|-- informetareas.json
-|-- tasks.json
-|-- users.json
+|   |-- styles.css
+|   |-- login.js
+|   |-- scripts.js
+|   |-- tasks.js
+|   |-- add_task.php
+|   |-- delete_all_tasks.php
+|   |-- get_user.php
+|   |-- informetareas.php
+|   |-- login.php
+|   |-- logout.php
+|   |-- register.php
+|   |-- save_task.php
+|   |-- tasks.php
+|   |-- informetareas.json
+|   |-- tasks.json
+|   |-- users.json
 |-- index.php
 |-- login.html
 |-- register.html
+
 
 ## Instrucciones de Instalación
 
