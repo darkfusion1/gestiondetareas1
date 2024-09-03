@@ -40,7 +40,7 @@ scripts.js: Script principal para la gestión de tareas.
 tasks.js: Script para manejar las tareas específicas.
 styles.css: Archivo de estilos para la aplicación.
 Instrucciones de Instalación
-Clona el repositorio: git clone https://github.com/tuusuario/gestion-tareas.git
+Clona el repositorio: git clone (https://github.com/darkfusion1/gestiondetareas1)
 Configura tu servidor local (XAMPP o similar) para que soporte PHP.
 Asegúrate de que los archivos PHP puedan leer y escribir en tasks.json y users.json.
 Uso
