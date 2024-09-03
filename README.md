@@ -16,7 +16,7 @@ JSON para almacenamiento de datos
 
 ## Estructura del Proyecto
 
-/gestiontareas
+gestiontareas/
 -- css
 -- styles.css
 -- js
