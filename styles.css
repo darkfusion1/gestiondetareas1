@@ -1,0 +1,293 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo de la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #3b5998;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#logout-btn {
+    background-color: #d9534f;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#logout-btn:hover {
+    background-color: #c9302c;
+}
+
+/* Estilos del contenedor principal */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Secciones */
+.task-form,
+.task-list,
+.task-report {
+    margin-bottom: 30px;
+}
+
+.task-form input,
+.task-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.task-form button {
+    padding: 10px 15px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.task-form button:hover {
+    background-color: #2a4376;
+}
+
+.task-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    padding: 10px;
+    background-color: #f5f6fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-list .completed-task {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.task-list .pending-task {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Botones de acciones de tareas */
+.task-actions button {
+    padding: 10px 15px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.task-actions button:hover {
+    background-color: #2a4376;
+}
+
+/* Estilos para el informe de tareas */
+.task-report ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-report li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.task-report .completed-report {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.task-report .pending-report {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Estilo para el aviso de login */
+#login-prompt {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#login-prompt a {
+    color: #3b5998;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#login-prompt a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal para login y registro */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+/* Título del formulario */
+.container h1 {
+    text-align: center;
+    color: #3b5998;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+/* Estilo de los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #2a4376;
+}
+
+/* Estilo del enlace de registro/inicio de sesión */
+.container p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.container p a {
+    color: #3b5998;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos responsivos */
+@media (max-width: 500px) {
+    .container {
+        padding: 20px;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+    form input,
+    form button {
+        font-size: 0.9rem;
+    }
+}
+.task-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.modal {
+    display: none; /* Ocultar modal por defecto */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* Fondo oscuro */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
